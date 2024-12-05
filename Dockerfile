@@ -4,7 +4,7 @@ FROM node:20
 USER node
 
 
-RUN git clone https://github.com/STAR-KING0/Queen_NIKKA home/node/blue
+RUN git clone https://github.com/hakisolos/nikka-v3.2 home/node/blue
 
 
 WORKDIR /home/node/blue
